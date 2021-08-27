@@ -15,6 +15,10 @@
     color: #fff;
 }
 
+.topbar-nav .brand img {
+    height: 100%;
+}
+
 .topbar-nav h3 {
     display: inline-block;
     color: inherit;
