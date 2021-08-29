@@ -117,6 +117,7 @@ $(document).ready(function() {
     margin: 0,
     loop: true,
     autoplay: true,
+    autoplaySpeed: 3600,
     dots: false,
     autoplayTimeout: 4000,
     items: 1,
