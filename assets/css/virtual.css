@@ -181,6 +181,10 @@ a:hover, a:active {
     border-radius: 40px !important;
 }
 
+.btn-quote {
+    margin-top: 2em;
+}
+
 /* Floating Action Button */
 .btn-fab {
     display: inline-block;
