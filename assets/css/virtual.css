@@ -1435,3 +1435,9 @@ a:hover, a:active {
 .theme-purple .theme-list li::before {
     border-color: #6f42c1;
 }
+
+.page-portfolio {
+    -webkit-box-shadow:0px 1px 1px #de1dde;
+    -moz-box-shadow:0px 1px 1px #de1dde;
+    box-shadow:0px 1px 1px #de1dde;
+}
