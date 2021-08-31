@@ -1437,7 +1437,7 @@ a:hover, a:active {
 }
 
 .page-portfolio {
-    -webkit-box-shadow:0px 1px 1px #de1dde;
-    -moz-box-shadow:0px 1px 1px #de1dde;
-    box-shadow:0px 1px 1px #de1dde;
+    -webkit-box-shadow:0px 1px 1px #222222;
+    -moz-box-shadow:0px 1px 1px #222222;
+    box-shadow:0px 1px 1px #222222;
 }
