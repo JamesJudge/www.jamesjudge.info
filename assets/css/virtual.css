@@ -185,6 +185,12 @@ a:hover, a:active {
     margin-top: 15px;
 }
 
+.brand-2 {
+    font-size:  -1em;
+}
+
+
+
 /* Floating Action Button */
 .btn-fab {
     display: inline-block;
