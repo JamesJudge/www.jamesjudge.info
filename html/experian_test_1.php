@@ -1,6 +1,6 @@
 <?php
 
-function calcIndex($ixd){
+function calcIndex($idx){
 	if($idx < 0){
 		throw new exception("Value entered must be zero or greater.");
 	}
