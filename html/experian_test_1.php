@@ -7,13 +7,13 @@ function calcIndex($ixd){
 	$n = 0;
 	switch($idx){
 		case 0:
-			$n = 0
+			$n = 0;
 		break;
 		case 1:
-			$n = 1
+			$n = 1;
 		break;
 		case 2:
-			$n = 1
+			$n = 1;
 		break;
 		default:
 			$n = calcIndex($idx-1) + ($idx-2);
