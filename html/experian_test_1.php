@@ -12,11 +12,8 @@ function calcIndex($idx){
 		case 1:
 			$n = 1;
 		break;
-		case 2:
-			$n = 1;
-		break;
 		default:
-			$n = calcIndex($idx-1) + ($idx-2);
+			$n = calcIndex($idx-1) + calcIndex($idx-2);
 	}
 
 	return $n;
