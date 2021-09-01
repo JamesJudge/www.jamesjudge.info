@@ -22,9 +22,9 @@ function calcIndex($idx){
 
 
 for($i = 0; $i < 25; $i++){
-	$before = microtime();
+	$before = timestamp();
 	$result = calcIndex($i);
-	$after = microtime();
+	$after = timestamp();
 	$elapsed = intval($after) - intval($before);
 	print($before . "- " . $after . " | Index " . $i . ": " . $result . " | Time Elapsed (ms): " . $elapsed . "\n");
 }
