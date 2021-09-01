@@ -19,6 +19,12 @@ function calcIndex($idx){
 	return $n;
 }
 
+
+
 for($i = 0; $i < 25; $i++){
-	print($i.": ".calcIndex($i)."\n");
+	$before = microtime();
+	$result = calcIndex($i);
+	$after = microtime();
+	$elapsed = abs($after-$before);
+	print("Index $i: $result | Time Elapsed (ms): $elapsed");
 }
