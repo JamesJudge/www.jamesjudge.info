@@ -26,5 +26,5 @@ for($i = 0; $i < 25; $i++){
 	$result = calcIndex($i);
 	$after = microtime();
 	$elapsed = abs($after-$before);
-	print("Index $i: $result | Time Elapsed (ms): $elapsed");
+	print("Index " . $i . ": " . $result . " | Time Elapsed (ms): " . $elapsed);
 }
