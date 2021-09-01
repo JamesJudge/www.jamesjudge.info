@@ -22,6 +22,6 @@ function calcIndex($ixd){
 	return $n;
 }
 
-for($i = 0; $i < 25){
+for($i = 0; $i < 25; $i++){
 	print($i.": ".calcIndex($i)."\n");
 }
