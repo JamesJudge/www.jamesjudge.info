@@ -162,7 +162,8 @@
                 <li class="fg-dark"><b>Age:</b> 37</li>
                 <li class="fg-dark"><b>Gender:</b> Male</li>
               </ul>
-              <button class="btn btn-theme btn-rounded" onclick="getCV()">Download CV</button>
+              <button class="btn btn-theme btn-rounded" onclick="getCV('pdf')">Download CV (PDF)</button>
+              <button class="btn btn-theme btn-rounded" onclick="getCV('docx')">Download CV (DOCX)</button>
             </div>
           </div>
         </div>
@@ -843,8 +844,8 @@
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
 
   <script type="text/javascript" language="javascript">
-    function getCV(){
-      window.open('./assets/resume.docx');
+    function getCV(ext){
+      window.open('./assets/resume.' + ext);
     }
   </script>
 
